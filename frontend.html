@@ -12,11 +12,12 @@
 </head>
 <body>
 <header style="position:fixed;top: 2px;width: 100%;z-index: 10;">
-    <div class="navbar navbar-expand-lg bg-light">
+    <div class="navbar navbar-expand-lg bg-light" style="min-width: 100px;">
         <div class="container">
             <a class="navbar-brand" href="#">
                 <img src="https://1000logos.net/wp-content/uploads/2017/05/Logo-NVIDIA.jpg" alt="NVIDIA" height="30rem">
             </a>
+            <div class="mr-auto">
             <button class="navbar-toggler" type="button" aria-expanded="false" aria-label="Toggle navigation" data-target="#navbarNav" data-toggle="collapse" aria-controls="navbarNav">
                 <span class="navbar-toggler-icon"></span>
             </button>
@@ -34,10 +35,6 @@
                     <li class="nav-item">
                         <a class="nav-link" href="#about">About</a>
                     </li>
-                </ul>
-            </div>
-            <div class="navbar-nav">
-                <ul class="navbar-nav mr-auto" style="text-align: right;">
                     <li class="nav-item">
                         <a class="nav-link" href="#">Shop</a>
                     </li>
@@ -55,6 +52,7 @@
                     </li>
                 </ul>
             </div>
+        </div>
         </div>
         <hr>
     </div>
@@ -420,9 +418,119 @@
         </div>
     </div>
 </div>
+<br>
+<br>
 </section>
 
-<footer id="about">
+<section id="about">
+    <div>
+        <b><h3>About Us:</h3></b>
+        <div class="accordion" id="accordionExample">
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingOne">
+                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                  <b>History</b>
+                </button>
+              </h2>
+              <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  <p>
+                    NVIDIA was founded on April 5, 1993, by Jen-Hsun Huang, Chris Malachowsky, and Curtis Priem, with a vision to bring 3D graphics to the gaming and multimedia markets. The three men met at a Denny's roadside diner in East San Jose, California, and decided to start their own company after they were laid off from their jobs at other semiconductor companies.</p>
+                    
+                  <p>
+                    NVIDIA's first product was the NV1, a graphics chip that was released in 1995. The NV1 was not a commercial success, but it paved the way for NVIDIA's later products, which were more successful. In 1999, NVIDIA released the GeForce 256, which was the first graphics chip to support 3D acceleration. The GeForce 256 was a major success and helped to make NVIDIA a leading player in the graphics market.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingTwo">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                 <b>Innovating Every day</b>
+                </button>
+              </h2>
+              <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  <p>In the years since, NVIDIA has continued to innovate and develop new products. In 2006, the company released the CUDA (Compute Unified Device Architecture) programming platform, which allows developers to use GPUs for general-purpose computing tasks. CUDA has been used in a wide variety of applications, including machine learning, artificial intelligence, and scientific computing.</p>
+
+                    <p>NVIDIA has also been a major player in the artificial intelligence (AI) market. In 2016, the company released the NVIDIA Volta GPU, which was designed specifically for AI applications. Volta has been used in a variety of AI systems, including self-driving cars, natural language processing systems, and medical imaging systems.
+                    
+                    In recent years, NVIDIA has also expanded into the data center market. The company's GPUs are used in a variety of data center applications, including machine learning, artificial intelligence, and high-performance computing.</p>
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingThree">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                  <b>Trend Setting Goals</b>
+                </button>
+              </h2>
+              <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  <p>Focus on artificial intelligence (AI). NVIDIA is a major player in the AI market and is continuously developing new products and technologies to support AI applications. </p><p>In 2023, the company released the NVIDIA Hopper GPU, which is designed to accelerate AI workloads. NVIDIA is also investing in AI research and development, and has acquired several AI startups in recent years.
+                    Expanding into the data center market. NVIDIA is expanding its presence in the data center market, where its GPUs are used for a variety of applications, including machine learning, artificial intelligence, and high-performance computing. </p><p>In 2023, the company released the NVIDIA H100 Tensor Core GPU, which is designed for data center workloads. NVIDIA is also partnering with cloud computing providers to make its GPUs available to a wider range of customers.
+                    Developing new technologies. NVIDIA is constantly developing new technologies to stay ahead of the competition. </p><p>In 2023, the company released the NVIDIA Omniverse, a platform for creating and simulating virtual worlds. NVIDIA is also developing new technologies for autonomous driving, robotics, and healthcare.
+                    Expanding into new markets. NVIDIA is expanding into new markets, such as the automotive and healthcare industries. In 2023, the company announced a partnership with Mercedes-Benz to develop self-driving cars. NVIDIA is also working with hospitals to develop AI-powered medical imaging systems.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+    </div>
+</section><br>
+
+<section>
+    <h3>Global Publications:</h3>
+    <button class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasBottom" aria-controls="offcanvasBottom">Graphics 10 Series</button>
+
+    <div class="offcanvas offcanvas-bottom" tabindex="-1" id="offcanvasBottom" aria-labelledby="offcanvasBottomLabel">
+        <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="offcanvasBottomLabel">GTX-1000 series</h5>
+            <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body small">
+            <img src="https://tse1.mm.bing.net/th?id=OIP.HAJ1xUG8KchdgeDGHxzonAHaEK&pid=Api&P=0&h=180" alt="gtx 10">
+        </div>
+    </div>
+
+    <button class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasBottom1" aria-controls="offcanvasBottom">Graphics 20 Series</button>
+
+    <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasBottom1" aria-labelledby="offcanvasBottomLabel">
+        <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="offcanvasBottomLabel">RTX-2000 series</h5>
+            <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body small">
+            <img src="https://tse2.mm.bing.net/th?id=OIP.ymGL7mO4SDFN8mvfhCa5cQAAAA&pid=Api&P=0&h=180" alt="gtx 20">
+        </div>
+    </div>
+
+    <button class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasBottom2" aria-controls="offcanvasBottom">Graphics 30 Series</button>
+
+    <div class="offcanvas offcanvas-top" tabindex="-1" id="offcanvasBottom2" aria-labelledby="offcanvasBottomLabel">
+        <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="offcanvasBottomLabel">RTX-3000 series</h5>
+            <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body small">
+            <img src="https://tse2.mm.bing.net/th?id=OIP.9O_nbudD5M6fXv8qDxZEYwHaEK&pid=Api&P=0&h=180" alt="gtx 30">
+        </div>
+    </div>
+    
+    <button class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasBottom3" aria-controls="offcanvasBottom">Graphics 40 Series</button>
+
+    <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasBottom3" aria-labelledby="offcanvasBottomLabel">
+        <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="offcanvasBottomLabel">RTX-4000 series</h5>
+            <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body small">
+            <img src="https://tse1.mm.bing.net/th?id=OIP._MT-ig4aHX8Fd0pZ2GNQ4wHaEK&pid=Api&P=0&h=180" alt="gtx 30">
+        </div>
+    </div>
+</section>
+<br>
+
+<footer>
     <div class="bg-dark text-white" style="display: flex; padding: 2em;">
         <div style="padding-right: 5em;padding-left: 5em;">
             <h5><b>Corporate Information</b></h5>
